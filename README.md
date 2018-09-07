@@ -1,3 +1,3 @@
 # Fall 2018 Virtual Machine
 
-Readme here.
+[Documentation is here.](https://eumaeus.github.io/fall2018vm/)

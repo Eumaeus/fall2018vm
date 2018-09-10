@@ -16,11 +16,17 @@
 1. Download the [Git for Windows installer](https://gitforwindows.org).
 1. Run the installer, accepting all defaults.
 
+## Cloning
+
+1. In a Terminal, navigate to a place where you want your VM directory to reside. E.g. `cd ~/Desktop`.
+1. `git clone https://github.com/Eumaeus/fall2018vm.git`.
+
 ## Running
 
 In a terminal (`Terminal.app` on MacOS, `Git-Bash` on Windows), after navigating into `fall2018vm` using `cd`:
 
-1. `vagrant up` starts the virtual machine. It will take a long time the first time.
+1. [*E.g.*] `cd ~/Desktop/fall2018vm` to navigate into the VM directory.
+1. `vagrant up` starts the virtual machine. It will take a long time the first time. **Do not close the Terminal or let your computer sleep until you are back to the Unix prompt.**
 1. `vagrant ssh` connects your Terminal session to the virtual machine.
 1. [ Do your work, starting with `cd /vagrant/` and then `ls` to see your working files. ]
 1. `logout` to exit the VM.
@@ -48,5 +54,9 @@ When done…
 - `logout` (exit the VM)
 - `vagrant halt` (stop the VM)
 
+## Misc. Links
+
+- [Pandoc](http://pandoc.org): This VM is preconfigured with Pandoc, the incredibly powerful utility for converting among different textual file formats.
+- [EZ-Morph](https://github.com/Eumaeus/ez-morph): A lightweight framework for working with ancient Greek morphology. Requires [pandoc](http://pandoc.org) and [sbt](https://www.scala-sbt.org/), both of which are preconfigured in this VM.
 
 		

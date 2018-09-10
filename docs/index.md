@@ -28,6 +28,10 @@ In a terminal (`Terminal.app` on MacOS, `Git-Bash` on Windows), after navigating
 
 The contents of `/vagrant/` in the VM are the same as the contents of `fall2018vm` on the host (your actual computer).
 
+## Basic Stuff
+
+[A basic introduction to the Unix command line](https://eumaeus.github.io/2018/09/07/cli.html)
+
 ## Using EZ-Morphology
 
 - `vagrant up`

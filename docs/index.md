@@ -1,3 +1,6 @@
+
+[eumaeus.github.io](https://eumaeus.github.io) 
+
 # Furman Classics VM: Fall 2018
 
 ## Setup

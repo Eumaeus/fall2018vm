@@ -77,6 +77,7 @@ cd /vagrant
 #git clone https://github.com/cite-architecture/citedx.git
 #git clone https://github.com/cite-architecture/cex-maker.git
 git clone https://github.com/Eumaeus/ez-morph.git
+git clone https://github.com/Eumaeus/fyw-scala.git
 
 # Final clean up
 sudo apt-get -y autoremove

@@ -41,6 +41,9 @@ apt-get install -y nano
 # gzip, if it isn't already installed
 apt-get install -y gzip
 
+# install texlive so pandoc can do PDFs
+apt-get install texlive
+
 # JDK bundle
 #apt-get install -y openjdk-7-jdk
 apt-get -y -q update

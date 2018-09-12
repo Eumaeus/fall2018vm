@@ -68,6 +68,7 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89
 sudo apt-get update
 sudo apt-get install sbt
 
+
 #########################################################
 ### Clone/Pull/Update Some Repos  ###########
 #########################################################
@@ -81,6 +82,8 @@ cd /vagrant
 #git clone https://github.com/cite-architecture/cex-maker.git
 git clone https://github.com/Eumaeus/ez-morph.git
 git clone https://github.com/Eumaeus/fyw-scala.git
+git clone https://github.com/Eumaeus/fuCiteDX.git
+
 
 # Final clean up
 sudo apt-get -y autoremove

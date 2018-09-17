@@ -68,6 +68,22 @@ When done…
 - `logout` (exit the VM)
 - `vagrant halt` (stop the VM)
 
+## Using FYW Tools
+
+- `vagrant up`
+- `vagrant ssh`
+- **Do this only once**: Setup your own writing directory:
+	- `cd /vagrant`
+	- `mkdir fyw`
+	- `cd fyw`
+	- `mkdir writing`
+	- `cd writing; mkdir output`
+	- `cp ../../fyw-scala/makeDoc.sh .`
+- `cd /vagrant/fys-scala`
+- `git pull` (to see if there are any updates)
+
+
+
 ## Misc. Links
 
 - [Pandoc](http://pandoc.org): This VM is preconfigured with Pandoc, the incredibly powerful utility for converting among different textual file formats.

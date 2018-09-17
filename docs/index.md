@@ -43,6 +43,17 @@ The contents of `/vagrant/` in the VM are the same as the contents of `fall2018v
 
 ## Using EZ-Morphology
 
+### Initial Setup of EZ-Morphology
+
+- **In your host OS:** Navigate on the command-line to the VM directory, *e.g.*: `cd ~/Desktop/fall2018vm`
+- `mkdir lexdata`
+- Navigate into that new directory: `cd lexdata`
+- Copy the data template files to the current location: 
+    - `cp ../ez-morph/data/forms-template.cex forms.cex` 
+    - `cp ../ez-morph/data/lexicon-template.cex lexicon.cex`
+
+### Using EZ-Morphology
+
 - `vagrant up`
 - `vagrant ssh`
 - `cd /vagrant/ez-morph`

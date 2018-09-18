@@ -32,7 +32,9 @@ In a terminal (`Terminal.app` on MacOS, `Git-Bash` on Windows), after navigating
 1. `vagrant up` starts the virtual machine. It will take a long time the first time. **Do not close the Terminal or let your computer sleep until you are back to the Unix prompt.**
 1. `vagrant ssh` connects your Terminal session to the virtual machine.
 1. [ Do your work, starting with `cd /vagrant/` and then `ls` to see your working files. ]
-1. `logout` to exit the VM.
+	- See below for working with EZ-Morphology
+	- See below for working with FYW Tools
+1. When you are done: `logout` to exit the VM.
 1. `vagrant halt` to shut down the VM.
 
 The contents of `/vagrant/` in the VM are the same as the contents of `fall2018vm` on the host (your actual computer).

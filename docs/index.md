@@ -41,7 +41,7 @@ The contents of `/vagrant/` in the VM are the same as the contents of `fall2018v
 
 ## Basic Stuff
 
-[A basic introduction to the Unix command line](https://eumaeus.github.io/2018/09/07/cli.html)
+Link: [A basic introduction to the Unix command line](https://eumaeus.github.io/2018/09/07/cli.html)
 
 ## Using EZ-Morphology
 
@@ -61,12 +61,21 @@ The contents of `/vagrant/` in the VM are the same as the contents of `fall2018v
 - `cd /vagrant/ez-morph`
 - `git pull` (to see if there are any updates)
 - `sbt console`
-- `:load tools.sc`
+- `:load tools.sc` (note the colon!)
 - `betaCode()` (to confirm that everything works)
+
+### Adding data
+
+- Your work is in `.../fall2018vm/lexdata/`
+- Add lexicon entries (vocabulary) to `lexicon.cex`; edit in a text-editor (*e.g.* [Atom](Atom.io))
+- Add forms (morphology) to `forms.cex`; edit in a text-editor (*e.g.* [Atom](https://atom.io))
+- To validate, **in the VM**, with `sbt console` running:
+	- `:load validate.sc` (note the colon)
+	- `validate()`
 
 When done…
 
-- `:quit` (exit SBT Console)
+- `:quit` (exit SBT Console; note the colon)
 - `logout` (exit the VM)
 - `vagrant halt` (stop the VM)
 

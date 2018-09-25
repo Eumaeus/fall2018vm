@@ -64,6 +64,13 @@ Link: [A basic introduction to the Unix command line](https://eumaeus.github.io/
 - `:load tools.sc` (note the colon!)
 - `betaCode()` (to confirm that everything works)
 
+Data entry and validation cycle:
+
+- Edit the lexicon in `/vagrant/lexData/lexicon.cex`.
+- Edit forms in `/vagrant/lexData/forms.cex`.
+- Use the part-of-speech generator at <http://folio.furman.edu/pos/>.
+- **Validate** the data in SBT with `validate()`.
+
 ### Adding data
 
 - Your work is in `.../fall2018vm/lexdata/`

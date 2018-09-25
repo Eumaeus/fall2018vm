@@ -71,6 +71,17 @@ Data entry and validation cycle:
 - Use the part-of-speech generator at <http://folio.furman.edu/pos/>.
 - **Validate** the data in SBT with `validate()`.
 
+Creating a Worksheet:
+
+- Create a new text-file in `/vagrant/ez-morph/documents/`:
+	- `cd /vagrant/ez-morph/documents`
+	- `touch unit1.txt`
+	- Confirm with `ls`. 
+- Edit `unit1.txt` in Atom.
+- In SBT, reload your data with `:load tools.sc`.
+- Generate a worksheet with `analyzeFile("unit1")`
+- Look for the file `unit1.docx` in `/vagrant/ez-morph/documents/`.
+
 ### Adding data
 
 - Your work is in `.../fall2018vm/lexdata/`

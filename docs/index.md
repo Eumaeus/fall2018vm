@@ -3,7 +3,7 @@
 
 # Furman Classics VM: Fall 2018
 
-## Setup
+## Setup  
 
 1. Download and install [VirtualBox](https://www.virtualbox.org).
 	- Mac Users: Follow the download link on the home page and then choose [OS X Hosts](https://download.virtualbox.org/virtualbox/5.2.18/VirtualBox-5.2.18-124319-OSX.dmg).
@@ -69,7 +69,7 @@ Data entry and validation cycle:
 - Edit the lexicon in `/vagrant/lexData/lexicon.cex`.
 - Edit forms in `/vagrant/lexData/forms.cex`.
 - Use the part-of-speech generator at <http://folio.furman.edu/pos/>.
-- **Validate** the data in SBT with `validate()`.
+- **Validate** the data in SBT with `validate()` **or** `refresh()`.
 
 Creating a Worksheet:
 
@@ -78,7 +78,7 @@ Creating a Worksheet:
 	- `touch unit1.txt`
 	- Confirm with `ls`. 
 - Edit `unit1.txt` in Atom.
-- In SBT, reload your data with `:load tools.sc`.
+- In SBT, reload your data with `refresh()`.
 - Generate a worksheet with `analyzeFile("unit1")`
 - Look for the file `unit1.docx` in `/vagrant/ez-morph/documents/`.
 
@@ -111,6 +111,13 @@ When done…
 - `cd /vagrant/fys-scala`
 - `git pull` (to see if there are any updates)
 
+Add Markdown files to the `writing` directory; you can edit them in Atom on your host machine. Name them with `.md` at the end.
+
+To get into the programming environment:
+
+- `cd /vagrant/fyw-scala` (if you haven't already).
+- `sbt console`
+- To quit, `:quit` (note the colon!)
 
 
 ## Misc. Links
